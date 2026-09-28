@@ -1,0 +1,30 @@
+
+public class Autobus
+{
+  private String kennzeichen;
+  private int sitzplatz;
+  private boolean anhanger;
+  
+  // a constructure to call our methos step by step
+  public Autobus(String neuKennzeichen, int neuSitzplatz, boolean neuAnhanger){
+    getKennzeichen();
+    setKennzeichen(neuKennzeichen, neuSitzplatz, neuAnhanger);
+    getKennzeichen();
+    }a
+  
+  public String getKennzeichen(){
+    return kennzeichen;
+    }
+  
+  public void setKennzeichen(String neuKennzeichen, int neuSitzplatz, boolean neuAnhanger){
+      kennzeichen = neuKennzeichen;
+      sitzplatz = neuSitzplatz;
+      anhanger = neuAnhanger;
+    }
+  public String getKennzeichen2(){
+    return kennzeichen;
+    }
+  public String getSitzplatz(){
+    return kennzeichen;
+    }
+}
